@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>User Record</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Client Data</a>
+        <button class="navbar-toggler" type="button" data-toggle  ="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item " >
+              <a class="nav-link" href="/createclient">Add User</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/allclients">Users List</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link" href="/">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+ <main>
+ 
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">About blogit</h1>
+        <p class="col-md-8 fs-4">This website is to collect data from the client by simply filing the form. To collect valid data
+        we have used validation during filing up the form.To add data you have to click on Add user it takes you to client form.
+        Once you submit your form you can see the success alert in the website. once you see that green alert now you can go to
+        User List to see the client data in tables where you can the saving and personal information submitted by clients.
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Technologies used</h2>
+          <p>Frontend of this website is done by using bootstrap and html5.In the backend
+          Springboot java Framework is in use.For save the client data  we are using Mysql database which is running on a AWS on
+          a server.If you want to see the code you can go through the code below</p>
+          <a href="https://github.com/itsnitinthakur/JavaSpringboot-bootstrap" role="button" class="btn btn-primary">click here for code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
